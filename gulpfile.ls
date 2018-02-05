@@ -105,7 +105,6 @@ create-standalone-build = (minify, {file, directory}) ->
         .exclude \react
         .exclude \react-dom
         .exclude \react-dom-factories
-        .exclude \react-transition-group/CSSTransitionGroup
         .exclude \tether
         .transform browserify-shim
         .bundle!
